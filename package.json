@@ -1,0 +1,21 @@
+{
+  "name": "domain-proxy",
+  "version": "1.0.0",
+  "description": "an address proxy contract for issuing seamless updates with notifications",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "ganache-cli -p 7545 -i 5777",
+    "test": "truffle test --reporter tap",
+    "build": "truffle compile",
+    "dev": "truffle migrate development"
+  },
+  "author": "Robert Bruce",
+  "license": "MIT",
+  "devDependencies": {
+    "ganache-cli": "^6.12.1",
+    "truffle": "^5.1.59"
+  }
+}
